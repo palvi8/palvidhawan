@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
-          <div class="flex justify-end"><a class="btn" href="./src/assets/palviDhawan_Resume.pdf">My Resume</a></div>
+          <div class="flex justify-end"><a class="btn" href="./palviDhawan_Resume.pdf" download="palviDhawan_Resume">My Resume</a></div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
               <div
