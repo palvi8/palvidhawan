@@ -19,7 +19,7 @@ const openResume = () => window.open('https://drive.google.com/file/d/1-pRk4zxa2
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
-          <div class="flex justify-end"><button class="btn" onClick={openResume}>My Resume</button></div>
+          <div class="flex lg:justify-end md:justify-start"><button class="btn" onClick={openResume}>My Resume</button></div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
               <div
