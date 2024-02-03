@@ -1,6 +1,7 @@
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
+const openResume = () => window.open('https://drive.google.com/file/d/1-pRk4zxa2-zAjOBXQ48Wmmq94Hk2Nvav/view', '_blank')
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
@@ -18,7 +19,7 @@ const Hero = () => {
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
-          <div class="flex justify-end"><a class="btn" href="./palviDhawan_Resume.pdf" download="palviDhawan_Resume">My Resume</a></div>
+          <div class="flex justify-end"><button class="btn" onClick={openResume}>My Resume</button></div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
               <div
