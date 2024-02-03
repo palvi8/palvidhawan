@@ -1,7 +1,7 @@
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
-const openResume = () => window.open('./palviDhawan_Resume.pdf', '_blank')
+const openResume = () => window.open('./src/assets/palviDhawan_Resume.pdf', '_blank')
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
