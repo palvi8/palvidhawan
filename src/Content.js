@@ -33,10 +33,10 @@ export const content = {
     hero_content: [
       {
         count: "5+",
-        text: "Years of Experinse in Frontend development",
+        text: "Years of Experinse in Frontend development.",
       },
       {
-        text: "With track record of successfully delivering user-friendly web apps",
+        text: "With track record of successfully delivering user-friendly web apps.",
       },
       
     ],
@@ -51,7 +51,7 @@ export const content = {
       },
       {
         name: "Backend",
-        para: ["Node.js", "Express.js", "SpringBoot"],
+        para: ["Node.js", "Rest APIs", "Express.js", "SpringBoot"],
       },
       {
         name: "Testing",
@@ -59,7 +59,7 @@ export const content = {
       },
       {
         name: "DevOps",
-        para: ["Docker", "Kubernetes", "Jenkins", "Gocd"],
+        para: ["Docker", "Kubernetes", "Jenkins", "Gocd", "CI/CD"],
       }
     ],
     icon: MdArrowForward,

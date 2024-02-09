@@ -1,7 +1,7 @@
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
-const openResume = () => window.open('https://drive.google.com/file/d/1-pRk4zxa2-zAjOBXQ48Wmmq94Hk2Nvav/view', '_blank')
+const openResume = () => window.open('https://drive.google.com/file/d/1plZjdfUiQgszLGvNAS-9PmohMrvqfDXQ/view?usp=sharing', '_blank')
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
