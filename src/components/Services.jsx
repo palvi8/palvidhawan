@@ -22,7 +22,7 @@ const Services = () => {
     date="Aug 2023 - present"
   >
     <h6>ThoughtWorks</h6>
-    <h4 className="vertical-timeline-element-title"> IDFC First Bank</h4>
+    <h4 className="vertical-timeline-element-title">Banking Domain</h4>
     <h6 className="vertical-timeline-element-subtitle">Role - UI Developer</h6>
     <h5 className="vertical-timeline-element-subtitle" style={{marginTop: '0.5rem'}}>
       Tech - React Native, React JS, React-Styleguide, Jest
@@ -45,7 +45,7 @@ const Services = () => {
     iconStyle={{ background: '#B6CCF5', color: '#fff' }}
   >
     <h6>ThoughtWorks</h6>
-    <h4 className="vertical-timeline-element-title">First Student</h4>
+    <h4 className="vertical-timeline-element-title">Web & Mobile Product Design & Delivery</h4>
     <h6 className="vertical-timeline-element-subtitle">Role - UI Developer</h6>
     <h5 className="vertical-timeline-element-subtitle" style={{marginTop: '0.5rem'}}>
     Tech - ReactJS, Storybook, material-ui, TypeScript, Jest, Springboot, Docker, Kubernetes
@@ -71,7 +71,7 @@ const Services = () => {
     
   >
     <h6>ThoughtWorks</h6>
-    <h4 className="vertical-timeline-element-title">Nvest Inc. Sigfig</h4>
+    <h4 className="vertical-timeline-element-title">Finance & Bank Domain</h4>
     <h6 className="vertical-timeline-element-subtitle">Role - UI Developer</h6>
     <h5 className="vertical-timeline-element-subtitle" style={{marginTop: '0.5rem'}}>
     Tech - Angular JS, SCSS, Jasmine
@@ -93,7 +93,7 @@ const Services = () => {
     
   >
     <h6>ThoughtWorks</h6>
-    <h4 className="vertical-timeline-element-title">Humana Digital health and Analytics</h4>
+    <h4 className="vertical-timeline-element-title">Health Analytics Domain</h4>
     <h6 className="vertical-timeline-element-subtitle">Role - UI Developer</h6>
     <h5 className="vertical-timeline-element-subtitle" style={{marginTop: '0.5rem'}}>Tech - Angular 8, Jasmine, Springboot, Azure log analytics</h5>
     <p style={{marginTop: '0.5rem', marginBottom: '0.5rem'}}>Reporting and CRM for Value based care management </p>
