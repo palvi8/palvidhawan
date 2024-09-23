@@ -32,7 +32,7 @@ export const content = {
     LastName: "DHAWAN",
     hero_content: [
       {
-        count: "5+",
+        count: "6+",
         text: "Years of Experinse in Frontend development.",
       },
       {
